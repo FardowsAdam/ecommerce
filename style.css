@@ -224,23 +224,29 @@
     height: 70vh;
     min-height: 60px;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-                url('../images/hero-bg.jpg') center/cover no-repeat;
+                url('https://th.bing.com/th/id/R.cce4048f2ea0abb43250f3432cd68acd?rik=cHj1SCsgX5KjRg&pid=ImgRaw&r=0') center/cover no-repeat;
     color: var(--white);
     display: flex;
     align-items: center;
     padding-top: 80px;
+    justify-content: center; /* Horizontal centering */
+    text-align: center;
   }
   
   .hero-content {
     max-width: 600px;
     align-items: center;
+    justify-content: center
   }
   
   .hero h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     margin-bottom: 1rem;
     animation: fadeInUp 1s ease;
     align-items: center;
+    justify-content: center;
+    font-style: italic;
+    
   }
   
   .hero .subheading {
@@ -249,7 +255,10 @@
     opacity: 0.9;
     animation: fadeInUp 1s ease 0.2s forwards;
     opacity: 0;
+    font-style: italic;
+    
   }
+
   
   .cta-button {
     background-color: var(--primary-color);
@@ -261,6 +270,7 @@
     transition: var(--transition);
     animation: fadeInUp 1s ease 0.4s forwards;
     opacity: 0;
+ 
   }
   
   .cta-button:hover {
